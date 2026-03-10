@@ -45,7 +45,7 @@ class PatchCoreInference:
         self.upsample = nn.Upsample(size=(28, 28), mode="bilinear", align_corners=False)
         self.extractor = FeatureExtractor().to(self.device).eval()
 
-        data = torch.load(memory_bank_path, map_location="cpu")
+        data = torch.load(memory_bank_path, map_location="cpu", weights_only=False)
         memory_bank  = data["memory_bank"]
         self.threshold = float(data.get("best_thresh", 4.5))
 
