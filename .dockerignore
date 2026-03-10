@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pth
+*.onnx
+.env
+.git
+notebooks/
+data/
