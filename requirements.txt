@@ -1,0 +1,27 @@
+# Computer Vision
+ultralytics==8.2.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+anomalib>=1.0.0
+
+# API & Demo
+fastapi>=0.110.0
+uvicorn>=0.29.0
+gradio>=4.26.0
+python-multipart>=0.0.9
+
+# Data & Utils
+numpy>=1.26.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+
+# HuggingFace
+huggingface_hub>=0.22.0
+
+# Dev
+pytest>=8.0.0
+python-dotenv>=1.0.0

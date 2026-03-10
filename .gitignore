@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data & Models (trop lourds pour Git)
+data/raw/
+data/processed/
+models/weights/
+*.pt
+*.pth
+*.onnx
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+runs/
+mlruns/
